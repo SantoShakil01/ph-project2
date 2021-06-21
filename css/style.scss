@@ -62,3 +62,29 @@ body{
         margin-top: 15%;
     }
 }
+
+
+
+.latest-work{
+    padding: 50px 0px;
+    overflow: hidden;
+    background-image: url(../images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    h2{
+        font-size: 50px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        margin: 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .single-work{
+        width: 32%;
+        float: left;
+        padding: 10px;
+        .img-responsive{
+            width: 100%;
+        }
+    }
+}

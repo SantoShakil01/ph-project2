@@ -61,3 +61,27 @@ body {
 .bio-area .bio-text {
   margin-top: 15%;
 }
+
+.latest-work {
+  padding: 50px 0px;
+  overflow: hidden;
+  background-image: url(../images/latest-work-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.latest-work h2 {
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.latest-work .single-work {
+  width: 32%;
+  float: left;
+  padding: 10px;
+}
+.latest-work .single-work .img-responsive {
+  width: 100%;
+}
