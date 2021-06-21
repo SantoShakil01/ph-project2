@@ -88,3 +88,41 @@ body{
         }
     }
 }
+
+
+.client{
+    padding: 50px 0px;
+    overflow: hidden;
+    background-image: url(../images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    h2{
+        font-size: 50px;
+        letter-spacing: 3px;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .client-review{
+        padding: 80px 0px 40px;
+        width: 40%;
+        margin: 0 auto;
+        h4{
+            margin: 0;
+            font-size: 22px;
+        }
+    }
+    .cta{
+        background-image: linear-gradient(45deg, #FF428D, tomato);
+        padding: 50px;
+        width: 50%;
+        color: #fff;
+        margin: 0 auto;
+        a{
+            text-decoration: none;
+            color: #fff;
+            font-size: 30px;
+            font-weight: 500;
+        }
+    }
+}
